@@ -23,7 +23,7 @@ services:
 
   app: &app_base
     container_name: "homeland_app"
-    image: homeland/homeland:${IMAGE_VERSION:-latest}
+    image: hdchdc/homeland:${IMAGE_VERSION:-latest}
     env_file:
       - app.secret.env
       - app.local.env
